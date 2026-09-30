@@ -1,0 +1,9 @@
+# User-uploaded files only (job photos, artisan portfolio photos). Never
+# execute anything here, whatever its extension, and don't list directories.
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<FilesMatch "\.(php|phtml|php\d)$">
+    Require all denied
+</FilesMatch>
+Options -Indexes -ExecCGI

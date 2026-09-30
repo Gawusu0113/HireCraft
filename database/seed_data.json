@@ -1,0 +1,2823 @@
+{
+  "categories": {
+    "plumbing": {
+      "id": "plumbing",
+      "name": "Plumbing"
+    },
+    "electrical": {
+      "id": "electrical",
+      "name": "Electrical"
+    },
+    "carpentry": {
+      "id": "carpentry",
+      "name": "Carpentry"
+    },
+    "masonry": {
+      "id": "masonry",
+      "name": "Masonry"
+    },
+    "painting": {
+      "id": "painting",
+      "name": "Painting"
+    }
+  },
+  "skills": {
+    "pipe_repair": {
+      "id": "pipe_repair",
+      "name": "Pipe repair",
+      "category": "plumbing",
+      "complexity": 1
+    },
+    "leak_detection": {
+      "id": "leak_detection",
+      "name": "Leak detection",
+      "category": "plumbing",
+      "complexity": 1
+    },
+    "water_heater": {
+      "id": "water_heater",
+      "name": "Water heater installation",
+      "category": "plumbing",
+      "complexity": 2
+    },
+    "toilet_install": {
+      "id": "toilet_install",
+      "name": "Toilet installation",
+      "category": "plumbing",
+      "complexity": 2
+    },
+    "drainage": {
+      "id": "drainage",
+      "name": "Drain unblocking",
+      "category": "plumbing",
+      "complexity": 2
+    },
+    "bathroom_fitout": {
+      "id": "bathroom_fitout",
+      "name": "Bathroom plumbing fit-out",
+      "category": "plumbing",
+      "complexity": 3
+    },
+    "borehole_pump": {
+      "id": "borehole_pump",
+      "name": "Pump and tank connection",
+      "category": "plumbing",
+      "complexity": 3
+    },
+    "socket_switch": {
+      "id": "socket_switch",
+      "name": "Socket and switch repair",
+      "category": "electrical",
+      "complexity": 1
+    },
+    "lighting": {
+      "id": "lighting",
+      "name": "Lighting installation",
+      "category": "electrical",
+      "complexity": 1
+    },
+    "fault_finding": {
+      "id": "fault_finding",
+      "name": "Electrical fault finding",
+      "category": "electrical",
+      "complexity": 2
+    },
+    "db_repair": {
+      "id": "db_repair",
+      "name": "Distribution board repair",
+      "category": "electrical",
+      "complexity": 2
+    },
+    "cctv_wiring": {
+      "id": "cctv_wiring",
+      "name": "CCTV and alarm wiring",
+      "category": "electrical",
+      "complexity": 2
+    },
+    "house_wiring": {
+      "id": "house_wiring",
+      "name": "House wiring",
+      "category": "electrical",
+      "complexity": 3
+    },
+    "generator_changeover": {
+      "id": "generator_changeover",
+      "name": "Generator changeover installation",
+      "category": "electrical",
+      "complexity": 3
+    },
+    "carpentry_repairs": {
+      "id": "carpentry_repairs",
+      "name": "Carpentry repairs",
+      "category": "carpentry",
+      "complexity": 1
+    },
+    "door_fitting": {
+      "id": "door_fitting",
+      "name": "Door fitting",
+      "category": "carpentry",
+      "complexity": 1
+    },
+    "furniture_making": {
+      "id": "furniture_making",
+      "name": "Furniture making",
+      "category": "carpentry",
+      "complexity": 2
+    },
+    "wardrobe_cabinet": {
+      "id": "wardrobe_cabinet",
+      "name": "Wardrobe and cabinet making",
+      "category": "carpentry",
+      "complexity": 2
+    },
+    "ceiling_wood": {
+      "id": "ceiling_wood",
+      "name": "Wooden ceiling fitting",
+      "category": "carpentry",
+      "complexity": 2
+    },
+    "roofing_carpentry": {
+      "id": "roofing_carpentry",
+      "name": "Roof carpentry",
+      "category": "carpentry",
+      "complexity": 3
+    },
+    "masonry_repairs": {
+      "id": "masonry_repairs",
+      "name": "Masonry repairs",
+      "category": "masonry",
+      "complexity": 1
+    },
+    "plastering": {
+      "id": "plastering",
+      "name": "Plastering",
+      "category": "masonry",
+      "complexity": 2
+    },
+    "block_laying": {
+      "id": "block_laying",
+      "name": "Block laying",
+      "category": "masonry",
+      "complexity": 2
+    },
+    "tiling": {
+      "id": "tiling",
+      "name": "Tiling",
+      "category": "masonry",
+      "complexity": 2
+    },
+    "fence_wall": {
+      "id": "fence_wall",
+      "name": "Fence wall building",
+      "category": "masonry",
+      "complexity": 2
+    },
+    "concrete_slab": {
+      "id": "concrete_slab",
+      "name": "Concrete slab and beams",
+      "category": "masonry",
+      "complexity": 3
+    },
+    "interior_painting": {
+      "id": "interior_painting",
+      "name": "Interior painting",
+      "category": "painting",
+      "complexity": 1
+    },
+    "repainting": {
+      "id": "repainting",
+      "name": "Repainting and touch-ups",
+      "category": "painting",
+      "complexity": 1
+    },
+    "exterior_painting": {
+      "id": "exterior_painting",
+      "name": "Exterior painting",
+      "category": "painting",
+      "complexity": 2
+    },
+    "wall_texture": {
+      "id": "wall_texture",
+      "name": "Wall texture and finishes",
+      "category": "painting",
+      "complexity": 2
+    },
+    "waterproof_coat": {
+      "id": "waterproof_coat",
+      "name": "Waterproof coating",
+      "category": "painting",
+      "complexity": 2
+    }
+  },
+  "areas": {
+    "adum": {
+      "id": "adum",
+      "name": "Adum",
+      "lat": 6.69,
+      "lng": -1.623,
+      "district": "Kumasi"
+    },
+    "asafo": {
+      "id": "asafo",
+      "name": "Asafo",
+      "lat": 6.697,
+      "lng": -1.629,
+      "district": "Kumasi"
+    },
+    "bantama": {
+      "id": "bantama",
+      "name": "Bantama",
+      "lat": 6.706,
+      "lng": -1.64,
+      "district": "Kumasi"
+    },
+    "suame": {
+      "id": "suame",
+      "name": "Suame",
+      "lat": 6.716,
+      "lng": -1.648,
+      "district": "Kumasi"
+    },
+    "asokwa": {
+      "id": "asokwa",
+      "name": "Asokwa",
+      "lat": 6.662,
+      "lng": -1.599,
+      "district": "Kumasi"
+    },
+    "ahodwo": {
+      "id": "ahodwo",
+      "name": "Ahodwo",
+      "lat": 6.665,
+      "lng": -1.625,
+      "district": "Kumasi"
+    },
+    "nhyiaeso": {
+      "id": "nhyiaeso",
+      "name": "Nhyiaeso",
+      "lat": 6.67,
+      "lng": -1.647,
+      "district": "Kumasi"
+    },
+    "santasi": {
+      "id": "santasi",
+      "name": "Santasi",
+      "lat": 6.652,
+      "lng": -1.66,
+      "district": "Kumasi"
+    },
+    "kwadaso": {
+      "id": "kwadaso",
+      "name": "Kwadaso",
+      "lat": 6.697,
+      "lng": -1.671,
+      "district": "Kumasi"
+    },
+    "ayigya": {
+      "id": "ayigya",
+      "name": "Ayigya",
+      "lat": 6.68,
+      "lng": -1.569,
+      "district": "Kumasi"
+    },
+    "knust": {
+      "id": "knust",
+      "name": "KNUST campus",
+      "lat": 6.6745,
+      "lng": -1.5716,
+      "district": "Kumasi"
+    },
+    "oforikrom": {
+      "id": "oforikrom",
+      "name": "Oforikrom",
+      "lat": 6.697,
+      "lng": -1.568,
+      "district": "Kumasi"
+    },
+    "atonsu": {
+      "id": "atonsu",
+      "name": "Atonsu",
+      "lat": 6.651,
+      "lng": -1.595,
+      "district": "Kumasi"
+    },
+    "tafo": {
+      "id": "tafo",
+      "name": "Tafo",
+      "lat": 6.74,
+      "lng": -1.61,
+      "district": "Kumasi"
+    },
+    "kentinkrono": {
+      "id": "kentinkrono",
+      "name": "Kentinkrono",
+      "lat": 6.713,
+      "lng": -1.668,
+      "district": "Kumasi"
+    },
+    "dichemso": {
+      "id": "dichemso",
+      "name": "Dichemso",
+      "lat": 6.688,
+      "lng": -1.61,
+      "district": "Kumasi"
+    },
+    "osu": {
+      "id": "osu",
+      "name": "Osu",
+      "lat": 5.556,
+      "lng": -0.1969,
+      "district": "Accra"
+    },
+    "madina": {
+      "id": "madina",
+      "name": "Madina",
+      "lat": 5.6837,
+      "lng": -0.1674,
+      "district": "Accra"
+    },
+    "takoradi": {
+      "id": "takoradi",
+      "name": "Takoradi",
+      "lat": 4.8845,
+      "lng": -1.7554,
+      "district": "Takoradi"
+    },
+    "tamale": {
+      "id": "tamale",
+      "name": "Tamale",
+      "lat": 9.4008,
+      "lng": -0.8393,
+      "district": "Tamale"
+    },
+    "capecoast": {
+      "id": "capecoast",
+      "name": "Cape Coast",
+      "lat": 5.1053,
+      "lng": -1.2466,
+      "district": "Cape Coast"
+    },
+    "sunyani": {
+      "id": "sunyani",
+      "name": "Sunyani",
+      "lat": 7.3399,
+      "lng": -2.3268,
+      "district": "Sunyani"
+    },
+    "ho": {
+      "id": "ho",
+      "name": "Ho",
+      "lat": 6.6017,
+      "lng": 0.4713,
+      "district": "Ho"
+    },
+    "koforidua": {
+      "id": "koforidua",
+      "name": "Koforidua",
+      "lat": 6.094,
+      "lng": -0.257,
+      "district": "Koforidua"
+    }
+  },
+  "artisans": [
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "pipe_repair": 6,
+        "leak_detection": 3
+      },
+      "history": {
+        "pipe_repair": 20,
+        "leak_detection": 12,
+        "toilet_install": 6,
+        "drainage": 8
+      },
+      "id": "p1",
+      "name": "Kwame Boateng",
+      "business": "Boateng Plumbing Works",
+      "category": "plumbing",
+      "baseArea": "adum",
+      "radiusKm": 8,
+      "serviceAreas": [
+        "adum",
+        "asafo",
+        "dichemso",
+        "bantama",
+        "ahodwo"
+      ],
+      "skills": [
+        "pipe_repair",
+        "leak_detection",
+        "toilet_install",
+        "drainage"
+      ],
+      "years": 12,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          300
+        ],
+        "medium": [
+          300,
+          900
+        ],
+        "complex": [
+          1500,
+          4000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.95,
+      "completedJobs": 46,
+      "completionRate": 0.96,
+      "responseRate": 0.93,
+      "disputeFreeRate": 0.98,
+      "ratingMean": 4.8,
+      "ratingCount": 38
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "bathroom_fitout": 3,
+        "water_heater": 2
+      },
+      "history": {
+        "pipe_repair": 8,
+        "water_heater": 4,
+        "bathroom_fitout": 3,
+        "leak_detection": 3
+      },
+      "id": "p2",
+      "name": "Efua Mensah",
+      "business": "Mensah Pipes and Fittings",
+      "category": "plumbing",
+      "baseArea": "bantama",
+      "radiusKm": 6,
+      "serviceAreas": [
+        "bantama",
+        "suame",
+        "asafo",
+        "kwadaso"
+      ],
+      "skills": [
+        "pipe_repair",
+        "water_heater",
+        "bathroom_fitout",
+        "leak_detection"
+      ],
+      "years": 6,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          150,
+          350
+        ],
+        "medium": [
+          400,
+          1200
+        ],
+        "complex": [
+          2000,
+          5000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.8,
+      "completedJobs": 18,
+      "completionRate": 0.9,
+      "responseRate": 0.85,
+      "disputeFreeRate": 0.95,
+      "ratingMean": 4.5,
+      "ratingCount": 14
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {},
+      "history": {
+        "pipe_repair": 3,
+        "drainage": 1
+      },
+      "id": "p3",
+      "name": "Yaw Asante",
+      "business": "Asante Plumbing",
+      "category": "plumbing",
+      "baseArea": "asokwa",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "asokwa",
+        "atonsu",
+        "ahodwo",
+        "adum",
+        "dichemso"
+      ],
+      "skills": [
+        "pipe_repair",
+        "drainage",
+        "borehole_pump"
+      ],
+      "years": 3,
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          80,
+          200
+        ],
+        "medium": [
+          250,
+          700
+        ],
+        "complex": [
+          1200,
+          3000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 0,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.6,
+      "completedJobs": 4,
+      "completionRate": 1,
+      "responseRate": 0.8,
+      "disputeFreeRate": 1,
+      "ratingMean": 4,
+      "ratingCount": 3
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "house_wiring": 5,
+        "lighting": 3
+      },
+      "history": {
+        "socket_switch": 25,
+        "house_wiring": 14,
+        "lighting": 10,
+        "db_repair": 7,
+        "fault_finding": 6
+      },
+      "id": "e1",
+      "name": "Kojo Owusu",
+      "business": "Owusu Electricals",
+      "category": "electrical",
+      "baseArea": "suame",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "suame",
+        "bantama",
+        "asafo",
+        "kwadaso",
+        "adum",
+        "kentinkrono"
+      ],
+      "skills": [
+        "socket_switch",
+        "house_wiring",
+        "lighting",
+        "db_repair",
+        "fault_finding",
+        "generator_changeover"
+      ],
+      "years": 15,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          350
+        ],
+        "medium": [
+          400,
+          1500
+        ],
+        "complex": [
+          4500,
+          9000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 1,
+      "completedJobs": 62,
+      "completionRate": 0.95,
+      "responseRate": 0.9,
+      "disputeFreeRate": 0.97,
+      "ratingMean": 4.9,
+      "ratingCount": 51
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "cctv_wiring": 3
+      },
+      "history": {
+        "socket_switch": 9,
+        "lighting": 6,
+        "cctv_wiring": 4,
+        "fault_finding": 2
+      },
+      "id": "e2",
+      "name": "Abena Serwaa",
+      "business": "Serwaa Electrical Services",
+      "category": "electrical",
+      "baseArea": "ahodwo",
+      "radiusKm": 7,
+      "serviceAreas": [
+        "ahodwo",
+        "nhyiaeso",
+        "adum",
+        "asokwa",
+        "santasi"
+      ],
+      "skills": [
+        "socket_switch",
+        "lighting",
+        "cctv_wiring",
+        "fault_finding"
+      ],
+      "years": 5,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          120,
+          300
+        ],
+        "medium": [
+          350,
+          1000
+        ],
+        "complex": [
+          2500,
+          6000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.85,
+      "completedJobs": 21,
+      "completionRate": 0.92,
+      "responseRate": 0.9,
+      "disputeFreeRate": 0.96,
+      "ratingMean": 4.6,
+      "ratingCount": 17
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "house_wiring": 2
+      },
+      "history": {
+        "house_wiring": 9,
+        "db_repair": 8,
+        "fault_finding": 6,
+        "generator_changeover": 4
+      },
+      "id": "e3",
+      "name": "Kwesi Adjei",
+      "business": "Adjei Wiring and Repairs",
+      "category": "electrical",
+      "baseArea": "kwadaso",
+      "radiusKm": 12,
+      "serviceAreas": [
+        "kwadaso",
+        "suame",
+        "kentinkrono",
+        "bantama",
+        "santasi",
+        "nhyiaeso"
+      ],
+      "skills": [
+        "house_wiring",
+        "db_repair",
+        "fault_finding",
+        "generator_changeover"
+      ],
+      "years": 9,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          150,
+          400
+        ],
+        "medium": [
+          500,
+          1800
+        ],
+        "complex": [
+          5000,
+          12000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.75,
+      "completedJobs": 27,
+      "completionRate": 0.88,
+      "responseRate": 0.8,
+      "disputeFreeRate": 0.93,
+      "ratingMean": 4.3,
+      "ratingCount": 20
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "furniture_making": 8,
+        "wardrobe_cabinet": 5
+      },
+      "history": {
+        "furniture_making": 18,
+        "wardrobe_cabinet": 12,
+        "door_fitting": 7,
+        "carpentry_repairs": 3
+      },
+      "id": "c1",
+      "name": "Nana Yeboah",
+      "business": "Yeboah Furniture Works",
+      "category": "carpentry",
+      "baseArea": "kentinkrono",
+      "radiusKm": 15,
+      "serviceAreas": [
+        "kentinkrono",
+        "kwadaso",
+        "suame",
+        "bantama",
+        "adum",
+        "nhyiaeso"
+      ],
+      "skills": [
+        "furniture_making",
+        "wardrobe_cabinet",
+        "door_fitting",
+        "carpentry_repairs"
+      ],
+      "years": 14,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          150,
+          400
+        ],
+        "medium": [
+          800,
+          2500
+        ],
+        "complex": [
+          3000,
+          9000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.95,
+      "completedJobs": 40,
+      "completionRate": 0.93,
+      "responseRate": 0.88,
+      "disputeFreeRate": 0.97,
+      "ratingMean": 4.7,
+      "ratingCount": 33
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "roofing_carpentry": 2
+      },
+      "history": {
+        "door_fitting": 8,
+        "roofing_carpentry": 5,
+        "carpentry_repairs": 4,
+        "ceiling_wood": 2
+      },
+      "id": "c2",
+      "name": "Kofi Manu",
+      "business": "Manu Carpentry",
+      "category": "carpentry",
+      "baseArea": "tafo",
+      "radiusKm": 12,
+      "serviceAreas": [
+        "tafo",
+        "suame",
+        "bantama",
+        "dichemso"
+      ],
+      "skills": [
+        "door_fitting",
+        "roofing_carpentry",
+        "carpentry_repairs",
+        "ceiling_wood"
+      ],
+      "years": 8,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          120,
+          350
+        ],
+        "medium": [
+          700,
+          2000
+        ],
+        "complex": [
+          3500,
+          8000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 0,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.7,
+      "completedJobs": 19,
+      "completionRate": 0.89,
+      "responseRate": 0.82,
+      "disputeFreeRate": 0.95,
+      "ratingMean": 4.2,
+      "ratingCount": 12
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "furniture_making": 4,
+        "wardrobe_cabinet": 3
+      },
+      "history": {
+        "furniture_making": 2,
+        "wardrobe_cabinet": 1
+      },
+      "id": "c3",
+      "name": "Ama Darko",
+      "business": "Darko Woodcraft",
+      "category": "carpentry",
+      "baseArea": "ayigya",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "ayigya",
+        "knust",
+        "oforikrom",
+        "dichemso"
+      ],
+      "skills": [
+        "furniture_making",
+        "wardrobe_cabinet"
+      ],
+      "years": 2,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          150,
+          350
+        ],
+        "medium": [
+          700,
+          1800
+        ],
+        "complex": [
+          2500,
+          6000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.9,
+      "completedJobs": 3,
+      "completionRate": 1,
+      "responseRate": 1,
+      "disputeFreeRate": 1,
+      "ratingMean": 4.8,
+      "ratingCount": 2
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "fence_wall": 3,
+        "concrete_slab": 2
+      },
+      "history": {
+        "block_laying": 10,
+        "plastering": 9,
+        "fence_wall": 6,
+        "tiling": 5,
+        "concrete_slab": 4
+      },
+      "id": "m1",
+      "name": "Isaac Ampofo",
+      "business": "Ampofo Building and Tiling",
+      "category": "masonry",
+      "baseArea": "oforikrom",
+      "radiusKm": 15,
+      "serviceAreas": [
+        "oforikrom",
+        "ayigya",
+        "knust",
+        "asokwa",
+        "dichemso",
+        "atonsu"
+      ],
+      "skills": [
+        "block_laying",
+        "plastering",
+        "concrete_slab",
+        "fence_wall",
+        "tiling"
+      ],
+      "years": 18,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          300,
+          800
+        ],
+        "medium": [
+          1500,
+          5000
+        ],
+        "complex": [
+          8000,
+          25000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.9,
+      "completedJobs": 34,
+      "completionRate": 0.91,
+      "responseRate": 0.85,
+      "disputeFreeRate": 0.96,
+      "ratingMean": 4.6,
+      "ratingCount": 26
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "tiling": 4
+      },
+      "history": {
+        "tiling": 8,
+        "plastering": 5,
+        "masonry_repairs": 3
+      },
+      "id": "m2",
+      "name": "Samuel Frimpong",
+      "business": "Frimpong Tiles and Plaster",
+      "category": "masonry",
+      "baseArea": "santasi",
+      "radiusKm": 8,
+      "serviceAreas": [
+        "santasi",
+        "nhyiaeso",
+        "ahodwo",
+        "kwadaso"
+      ],
+      "skills": [
+        "tiling",
+        "plastering",
+        "masonry_repairs"
+      ],
+      "years": 7,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          250,
+          700
+        ],
+        "medium": [
+          1200,
+          3500
+        ],
+        "complex": [
+          6000,
+          15000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.8,
+      "completedJobs": 16,
+      "completionRate": 0.9,
+      "responseRate": 0.86,
+      "disputeFreeRate": 0.94,
+      "ratingMean": 4.4,
+      "ratingCount": 11
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "wall_texture": 5,
+        "interior_painting": 4
+      },
+      "history": {
+        "interior_painting": 12,
+        "exterior_painting": 6,
+        "wall_texture": 4,
+        "repainting": 3
+      },
+      "id": "pa1",
+      "name": "Grace Osei",
+      "business": "Osei Colour Works",
+      "category": "painting",
+      "baseArea": "nhyiaeso",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "nhyiaeso",
+        "ahodwo",
+        "adum",
+        "santasi",
+        "asafo"
+      ],
+      "skills": [
+        "interior_painting",
+        "exterior_painting",
+        "wall_texture",
+        "repainting"
+      ],
+      "years": 7,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          200,
+          600
+        ],
+        "medium": [
+          800,
+          2500
+        ],
+        "complex": [
+          3000,
+          8000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.9,
+      "completedJobs": 25,
+      "completionRate": 0.94,
+      "responseRate": 0.92,
+      "disputeFreeRate": 0.98,
+      "ratingMean": 4.7,
+      "ratingCount": 21
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "interior_painting": 2
+      },
+      "history": {
+        "interior_painting": 5,
+        "exterior_painting": 3,
+        "waterproof_coat": 1
+      },
+      "id": "pa2",
+      "name": "Emmanuel Bonsu",
+      "business": "Bonsu Painters",
+      "category": "painting",
+      "baseArea": "atonsu",
+      "radiusKm": 9,
+      "serviceAreas": [
+        "atonsu",
+        "asokwa",
+        "ahodwo",
+        "dichemso"
+      ],
+      "skills": [
+        "interior_painting",
+        "exterior_painting",
+        "waterproof_coat"
+      ],
+      "years": 4,
+      "weekdays": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          150,
+          500
+        ],
+        "medium": [
+          700,
+          2000
+        ],
+        "complex": [
+          2500,
+          6500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 0,
+        "identity": 1,
+        "skill": 0
+      },
+      "profileCompleteness": 0.65,
+      "completedJobs": 9,
+      "completionRate": 0.89,
+      "responseRate": 0.8,
+      "disputeFreeRate": 1,
+      "ratingMean": 4.1,
+      "ratingCount": 7
+    }
+  ],
+  "benchmarks": {
+    "plumbing:simple": {
+      "n": 24,
+      "p25": 120,
+      "median": 200,
+      "p75": 320
+    },
+    "plumbing:medium": {
+      "n": 18,
+      "p25": 350,
+      "median": 600,
+      "p75": 950
+    },
+    "plumbing:complex": {
+      "n": 6,
+      "p25": 1400,
+      "median": 2500,
+      "p75": 4000
+    },
+    "electrical:simple": {
+      "n": 30,
+      "p25": 100,
+      "median": 180,
+      "p75": 320
+    },
+    "electrical:medium": {
+      "n": 22,
+      "p25": 400,
+      "median": 800,
+      "p75": 1400
+    },
+    "electrical:complex": {
+      "n": 9,
+      "p25": 4000,
+      "median": 6500,
+      "p75": 9500
+    },
+    "carpentry:simple": {
+      "n": 14,
+      "p25": 150,
+      "median": 250,
+      "p75": 400
+    },
+    "carpentry:medium": {
+      "n": 12,
+      "p25": 800,
+      "median": 1400,
+      "p75": 2400
+    },
+    "carpentry:complex": {
+      "n": 8,
+      "p25": 2800,
+      "median": 4500,
+      "p75": 8000
+    },
+    "masonry:simple": {
+      "n": 10,
+      "p25": 300,
+      "median": 500,
+      "p75": 800
+    },
+    "masonry:medium": {
+      "n": 7,
+      "p25": 1300,
+      "median": 2200,
+      "p75": 3600
+    },
+    "masonry:complex": {
+      "n": 3,
+      "p25": 8000,
+      "median": 14000,
+      "p75": 22000
+    },
+    "painting:simple": {
+      "n": 16,
+      "p25": 200,
+      "median": 350,
+      "p75": 600
+    },
+    "painting:medium": {
+      "n": 11,
+      "p25": 800,
+      "median": 1400,
+      "p75": 2400
+    },
+    "painting:complex": {
+      "n": 4,
+      "p25": 2800,
+      "median": 4500,
+      "p75": 7500
+    }
+  },
+  "scenarios": [
+    {
+      "id": "S1",
+      "title": "Emergency plumbing repair",
+      "categoryId": "plumbing",
+      "skillIds": [
+        "pipe_repair",
+        "drainage"
+      ],
+      "description": "Burst pipe and blocked drain under the kitchen sink, water is flooding the floor. Need someone today.",
+      "areaId": "adum",
+      "date": "2026-09-28",
+      "urgency": "high",
+      "budgetType": "range",
+      "budgetMin": 500,
+      "budgetMax": 800,
+      "negotiable": false
+    },
+    {
+      "id": "S2",
+      "title": "House electrical wiring",
+      "categoryId": "electrical",
+      "skillIds": [
+        "house_wiring",
+        "db_repair"
+      ],
+      "description": "Full wiring of a new three-bedroom house including the distribution board.",
+      "areaId": "kwadaso",
+      "date": "2026-10-05",
+      "urgency": "normal",
+      "budgetType": "range",
+      "budgetMin": 5000,
+      "budgetMax": 8000,
+      "negotiable": true
+    },
+    {
+      "id": "S3",
+      "title": "Furniture construction",
+      "categoryId": "carpentry",
+      "skillIds": [
+        "furniture_making",
+        "wardrobe_cabinet"
+      ],
+      "description": "Build a dining table with six chairs and a fitted wardrobe for the main bedroom.",
+      "areaId": "kentinkrono",
+      "date": "2026-10-12",
+      "urgency": "low",
+      "budgetType": "fixed",
+      "budgetMin": 2000,
+      "budgetMax": 2000,
+      "negotiable": false
+    },
+    {
+      "id": "S4",
+      "title": "Budget too low",
+      "categoryId": "carpentry",
+      "skillIds": [
+        "furniture_making",
+        "wardrobe_cabinet"
+      ],
+      "description": "Make a large fitted wardrobe with sliding doors for two bedrooms.",
+      "areaId": "nhyiaeso",
+      "date": "2026-10-08",
+      "urgency": "normal",
+      "budgetType": "range",
+      "budgetMin": 100,
+      "budgetMax": 200,
+      "negotiable": false
+    },
+    {
+      "id": "S5",
+      "title": "Not enough data",
+      "categoryId": "masonry",
+      "skillIds": [
+        "concrete_slab",
+        "block_laying"
+      ],
+      "description": "Build a fence wall foundation with concrete beams around a plot in Oforikrom.",
+      "areaId": "oforikrom",
+      "date": "2026-10-20",
+      "urgency": "low",
+      "budgetType": "range",
+      "budgetMin": 9000,
+      "budgetMax": 15000,
+      "negotiable": true
+    },
+    {
+      "id": "S6",
+      "title": "House renovation (several trades)",
+      "categoryId": "electrical",
+      "skillIds": [
+        "house_wiring",
+        "bathroom_fitout",
+        "interior_painting"
+      ],
+      "description": "Rewire two rooms, refit the bathroom plumbing and repaint everything afterwards.",
+      "areaId": "nhyiaeso",
+      "date": "2026-10-15",
+      "urgency": "normal",
+      "budgetType": "unknown",
+      "budgetMin": 0,
+      "budgetMax": 0,
+      "negotiable": true
+    }
+  ],
+  "ref": {
+    "categories": {
+      "plumbing": {
+        "id": "plumbing",
+        "name": "Plumbing"
+      },
+      "electrical": {
+        "id": "electrical",
+        "name": "Electrical"
+      },
+      "carpentry": {
+        "id": "carpentry",
+        "name": "Carpentry"
+      },
+      "masonry": {
+        "id": "masonry",
+        "name": "Masonry"
+      },
+      "painting": {
+        "id": "painting",
+        "name": "Painting"
+      }
+    },
+    "skills": {
+      "pipe_repair": {
+        "id": "pipe_repair",
+        "name": "Pipe repair",
+        "category": "plumbing",
+        "complexity": 1
+      },
+      "leak_detection": {
+        "id": "leak_detection",
+        "name": "Leak detection",
+        "category": "plumbing",
+        "complexity": 1
+      },
+      "water_heater": {
+        "id": "water_heater",
+        "name": "Water heater installation",
+        "category": "plumbing",
+        "complexity": 2
+      },
+      "toilet_install": {
+        "id": "toilet_install",
+        "name": "Toilet installation",
+        "category": "plumbing",
+        "complexity": 2
+      },
+      "drainage": {
+        "id": "drainage",
+        "name": "Drain unblocking",
+        "category": "plumbing",
+        "complexity": 2
+      },
+      "bathroom_fitout": {
+        "id": "bathroom_fitout",
+        "name": "Bathroom plumbing fit-out",
+        "category": "plumbing",
+        "complexity": 3
+      },
+      "borehole_pump": {
+        "id": "borehole_pump",
+        "name": "Pump and tank connection",
+        "category": "plumbing",
+        "complexity": 3
+      },
+      "socket_switch": {
+        "id": "socket_switch",
+        "name": "Socket and switch repair",
+        "category": "electrical",
+        "complexity": 1
+      },
+      "lighting": {
+        "id": "lighting",
+        "name": "Lighting installation",
+        "category": "electrical",
+        "complexity": 1
+      },
+      "fault_finding": {
+        "id": "fault_finding",
+        "name": "Electrical fault finding",
+        "category": "electrical",
+        "complexity": 2
+      },
+      "db_repair": {
+        "id": "db_repair",
+        "name": "Distribution board repair",
+        "category": "electrical",
+        "complexity": 2
+      },
+      "cctv_wiring": {
+        "id": "cctv_wiring",
+        "name": "CCTV and alarm wiring",
+        "category": "electrical",
+        "complexity": 2
+      },
+      "house_wiring": {
+        "id": "house_wiring",
+        "name": "House wiring",
+        "category": "electrical",
+        "complexity": 3
+      },
+      "generator_changeover": {
+        "id": "generator_changeover",
+        "name": "Generator changeover installation",
+        "category": "electrical",
+        "complexity": 3
+      },
+      "carpentry_repairs": {
+        "id": "carpentry_repairs",
+        "name": "Carpentry repairs",
+        "category": "carpentry",
+        "complexity": 1
+      },
+      "door_fitting": {
+        "id": "door_fitting",
+        "name": "Door fitting",
+        "category": "carpentry",
+        "complexity": 1
+      },
+      "furniture_making": {
+        "id": "furniture_making",
+        "name": "Furniture making",
+        "category": "carpentry",
+        "complexity": 2
+      },
+      "wardrobe_cabinet": {
+        "id": "wardrobe_cabinet",
+        "name": "Wardrobe and cabinet making",
+        "category": "carpentry",
+        "complexity": 2
+      },
+      "ceiling_wood": {
+        "id": "ceiling_wood",
+        "name": "Wooden ceiling fitting",
+        "category": "carpentry",
+        "complexity": 2
+      },
+      "roofing_carpentry": {
+        "id": "roofing_carpentry",
+        "name": "Roof carpentry",
+        "category": "carpentry",
+        "complexity": 3
+      },
+      "masonry_repairs": {
+        "id": "masonry_repairs",
+        "name": "Masonry repairs",
+        "category": "masonry",
+        "complexity": 1
+      },
+      "plastering": {
+        "id": "plastering",
+        "name": "Plastering",
+        "category": "masonry",
+        "complexity": 2
+      },
+      "block_laying": {
+        "id": "block_laying",
+        "name": "Block laying",
+        "category": "masonry",
+        "complexity": 2
+      },
+      "tiling": {
+        "id": "tiling",
+        "name": "Tiling",
+        "category": "masonry",
+        "complexity": 2
+      },
+      "fence_wall": {
+        "id": "fence_wall",
+        "name": "Fence wall building",
+        "category": "masonry",
+        "complexity": 2
+      },
+      "concrete_slab": {
+        "id": "concrete_slab",
+        "name": "Concrete slab and beams",
+        "category": "masonry",
+        "complexity": 3
+      },
+      "interior_painting": {
+        "id": "interior_painting",
+        "name": "Interior painting",
+        "category": "painting",
+        "complexity": 1
+      },
+      "repainting": {
+        "id": "repainting",
+        "name": "Repainting and touch-ups",
+        "category": "painting",
+        "complexity": 1
+      },
+      "exterior_painting": {
+        "id": "exterior_painting",
+        "name": "Exterior painting",
+        "category": "painting",
+        "complexity": 2
+      },
+      "wall_texture": {
+        "id": "wall_texture",
+        "name": "Wall texture and finishes",
+        "category": "painting",
+        "complexity": 2
+      },
+      "waterproof_coat": {
+        "id": "waterproof_coat",
+        "name": "Waterproof coating",
+        "category": "painting",
+        "complexity": 2
+      }
+    },
+    "areas": {
+      "adum": {
+        "id": "adum",
+        "name": "Adum",
+        "lat": 6.69,
+        "lng": -1.623,
+        "district": "Kumasi"
+      },
+      "asafo": {
+        "id": "asafo",
+        "name": "Asafo",
+        "lat": 6.697,
+        "lng": -1.629,
+        "district": "Kumasi"
+      },
+      "bantama": {
+        "id": "bantama",
+        "name": "Bantama",
+        "lat": 6.706,
+        "lng": -1.64,
+        "district": "Kumasi"
+      },
+      "suame": {
+        "id": "suame",
+        "name": "Suame",
+        "lat": 6.716,
+        "lng": -1.648,
+        "district": "Kumasi"
+      },
+      "asokwa": {
+        "id": "asokwa",
+        "name": "Asokwa",
+        "lat": 6.662,
+        "lng": -1.599,
+        "district": "Kumasi"
+      },
+      "ahodwo": {
+        "id": "ahodwo",
+        "name": "Ahodwo",
+        "lat": 6.665,
+        "lng": -1.625,
+        "district": "Kumasi"
+      },
+      "nhyiaeso": {
+        "id": "nhyiaeso",
+        "name": "Nhyiaeso",
+        "lat": 6.67,
+        "lng": -1.647,
+        "district": "Kumasi"
+      },
+      "santasi": {
+        "id": "santasi",
+        "name": "Santasi",
+        "lat": 6.652,
+        "lng": -1.66,
+        "district": "Kumasi"
+      },
+      "kwadaso": {
+        "id": "kwadaso",
+        "name": "Kwadaso",
+        "lat": 6.697,
+        "lng": -1.671,
+        "district": "Kumasi"
+      },
+      "ayigya": {
+        "id": "ayigya",
+        "name": "Ayigya",
+        "lat": 6.68,
+        "lng": -1.569,
+        "district": "Kumasi"
+      },
+      "knust": {
+        "id": "knust",
+        "name": "KNUST campus",
+        "lat": 6.6745,
+        "lng": -1.5716,
+        "district": "Kumasi"
+      },
+      "oforikrom": {
+        "id": "oforikrom",
+        "name": "Oforikrom",
+        "lat": 6.697,
+        "lng": -1.568,
+        "district": "Kumasi"
+      },
+      "atonsu": {
+        "id": "atonsu",
+        "name": "Atonsu",
+        "lat": 6.651,
+        "lng": -1.595,
+        "district": "Kumasi"
+      },
+      "tafo": {
+        "id": "tafo",
+        "name": "Tafo",
+        "lat": 6.74,
+        "lng": -1.61,
+        "district": "Kumasi"
+      },
+      "kentinkrono": {
+        "id": "kentinkrono",
+        "name": "Kentinkrono",
+        "lat": 6.713,
+        "lng": -1.668,
+        "district": "Kumasi"
+      },
+      "dichemso": {
+        "id": "dichemso",
+        "name": "Dichemso",
+        "lat": 6.688,
+        "lng": -1.61,
+        "district": "Kumasi"
+      },
+      "osu": {
+        "id": "osu",
+        "name": "Osu",
+        "lat": 5.556,
+        "lng": -0.1969,
+        "district": "Accra"
+      },
+      "madina": {
+        "id": "madina",
+        "name": "Madina",
+        "lat": 5.6837,
+        "lng": -0.1674,
+        "district": "Accra"
+      },
+      "takoradi": {
+        "id": "takoradi",
+        "name": "Takoradi",
+        "lat": 4.8845,
+        "lng": -1.7554,
+        "district": "Takoradi"
+      },
+      "tamale": {
+        "id": "tamale",
+        "name": "Tamale",
+        "lat": 9.4008,
+        "lng": -0.8393,
+        "district": "Tamale"
+      },
+      "capecoast": {
+        "id": "capecoast",
+        "name": "Cape Coast",
+        "lat": 5.1053,
+        "lng": -1.2466,
+        "district": "Cape Coast"
+      },
+      "sunyani": {
+        "id": "sunyani",
+        "name": "Sunyani",
+        "lat": 7.3399,
+        "lng": -2.3268,
+        "district": "Sunyani"
+      },
+      "ho": {
+        "id": "ho",
+        "name": "Ho",
+        "lat": 6.6017,
+        "lng": 0.4713,
+        "district": "Ho"
+      },
+      "koforidua": {
+        "id": "koforidua",
+        "name": "Koforidua",
+        "lat": 6.094,
+        "lng": -0.257,
+        "district": "Koforidua"
+      }
+    }
+  },
+  "artisans_extra": [
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "pipe_repair": 4,
+        "leak_detection": 4
+      },
+      "history": {
+        "pipe_repair": 19,
+        "leak_detection": 19,
+        "water_heater": 19
+      },
+      "id": "acc1",
+      "name": "Nii Ashong",
+      "business": "Ashong Plumbing & Drainage",
+      "category": "plumbing",
+      "baseArea": "osu",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "osu",
+        "madina"
+      ],
+      "skills": [
+        "pipe_repair",
+        "leak_detection",
+        "water_heater",
+        "bathroom_fitout"
+      ],
+      "years": 10,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          300
+        ],
+        "medium": [
+          300,
+          900
+        ],
+        "complex": [
+          1500,
+          4000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.92,
+      "completedJobs": 58,
+      "completionRate": 0.95,
+      "responseRate": 0.91,
+      "disputeFreeRate": 0.97,
+      "ratingMean": 4.7,
+      "ratingCount": 44
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "socket_switch": 2,
+        "house_wiring": 2
+      },
+      "history": {
+        "socket_switch": 11,
+        "house_wiring": 11,
+        "lighting": 11
+      },
+      "id": "acc2",
+      "name": "Naa Lartey",
+      "business": "Lartey Electrical Services",
+      "category": "electrical",
+      "baseArea": "madina",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "madina",
+        "osu"
+      ],
+      "skills": [
+        "socket_switch",
+        "house_wiring",
+        "lighting",
+        "fault_finding"
+      ],
+      "years": 7,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          100,
+          320
+        ],
+        "medium": [
+          400,
+          1400
+        ],
+        "complex": [
+          4000,
+          9500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.88,
+      "completedJobs": 33,
+      "completionRate": 0.93,
+      "responseRate": 0.88,
+      "disputeFreeRate": 0.95,
+      "ratingMean": 4.6,
+      "ratingCount": 27
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "block_laying": 1,
+        "plastering": 1
+      },
+      "history": {
+        "block_laying": 4,
+        "plastering": 4,
+        "tiling": 4
+      },
+      "id": "acc3",
+      "name": "Tetteh Odartey",
+      "business": "Odartey Masonry Works",
+      "category": "masonry",
+      "baseArea": "osu",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "osu",
+        "madina"
+      ],
+      "skills": [
+        "block_laying",
+        "plastering",
+        "tiling"
+      ],
+      "years": 4,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          300,
+          800
+        ],
+        "medium": [
+          1300,
+          3600
+        ],
+        "complex": [
+          8000,
+          22000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.74,
+      "completedJobs": 14,
+      "completionRate": 0.89,
+      "responseRate": 0.8,
+      "disputeFreeRate": 0.93,
+      "ratingMean": 4.3,
+      "ratingCount": 10
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "pipe_repair": 3,
+        "leak_detection": 3
+      },
+      "history": {
+        "pipe_repair": 13,
+        "leak_detection": 13,
+        "drainage": 13
+      },
+      "id": "tak1",
+      "name": "Ebo Annan",
+      "business": "Annan Plumbing Services",
+      "category": "plumbing",
+      "baseArea": "takoradi",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "takoradi"
+      ],
+      "skills": [
+        "pipe_repair",
+        "leak_detection",
+        "drainage",
+        "toilet_install"
+      ],
+      "years": 9,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          300
+        ],
+        "medium": [
+          300,
+          900
+        ],
+        "complex": [
+          1500,
+          4000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.9,
+      "completedJobs": 41,
+      "completionRate": 0.94,
+      "responseRate": 0.9,
+      "disputeFreeRate": 0.96,
+      "ratingMean": 4.6,
+      "ratingCount": 34
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "socket_switch": 1,
+        "lighting": 1
+      },
+      "history": {
+        "socket_switch": 7,
+        "lighting": 7,
+        "cctv_wiring": 7
+      },
+      "id": "tak2",
+      "name": "Esi Arthur",
+      "business": "Arthur Electricals",
+      "category": "electrical",
+      "baseArea": "takoradi",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "takoradi"
+      ],
+      "skills": [
+        "socket_switch",
+        "lighting",
+        "cctv_wiring",
+        "fault_finding"
+      ],
+      "years": 5,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          100,
+          320
+        ],
+        "medium": [
+          400,
+          1400
+        ],
+        "complex": [
+          4000,
+          9500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.8,
+      "completedJobs": 21,
+      "completionRate": 0.9,
+      "responseRate": 0.85,
+      "disputeFreeRate": 0.94,
+      "ratingMean": 4.4,
+      "ratingCount": 16
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "furniture_making": 3,
+        "wardrobe_cabinet": 3
+      },
+      "history": {
+        "furniture_making": 15,
+        "wardrobe_cabinet": 15,
+        "door_fitting": 15
+      },
+      "id": "tam1",
+      "name": "Abdul-Razak Mahama",
+      "business": "Mahama Carpentry & Furniture",
+      "category": "carpentry",
+      "baseArea": "tamale",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "tamale"
+      ],
+      "skills": [
+        "furniture_making",
+        "wardrobe_cabinet",
+        "door_fitting",
+        "carpentry_repairs"
+      ],
+      "years": 11,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          150,
+          400
+        ],
+        "medium": [
+          800,
+          2400
+        ],
+        "complex": [
+          2800,
+          8000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.91,
+      "completedJobs": 47,
+      "completionRate": 0.95,
+      "responseRate": 0.89,
+      "disputeFreeRate": 0.97,
+      "ratingMean": 4.7,
+      "ratingCount": 39
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "interior_painting": 2,
+        "exterior_painting": 2
+      },
+      "history": {
+        "interior_painting": 8,
+        "exterior_painting": 8,
+        "repainting": 8
+      },
+      "id": "tam2",
+      "name": "Fatima Alhassan",
+      "business": "Alhassan Painting Works",
+      "category": "painting",
+      "baseArea": "tamale",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "tamale"
+      ],
+      "skills": [
+        "interior_painting",
+        "exterior_painting",
+        "repainting"
+      ],
+      "years": 6,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          200,
+          600
+        ],
+        "medium": [
+          800,
+          2400
+        ],
+        "complex": [
+          2800,
+          7500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.83,
+      "completedJobs": 26,
+      "completionRate": 0.91,
+      "responseRate": 0.86,
+      "disputeFreeRate": 0.95,
+      "ratingMean": 4.5,
+      "ratingCount": 19
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "block_laying": 4,
+        "concrete_slab": 4
+      },
+      "history": {
+        "block_laying": 17,
+        "concrete_slab": 17,
+        "fence_wall": 17
+      },
+      "id": "cc1",
+      "name": "Kojo Amissah",
+      "business": "Amissah Masonry & Tiling",
+      "category": "masonry",
+      "baseArea": "capecoast",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "capecoast"
+      ],
+      "skills": [
+        "block_laying",
+        "concrete_slab",
+        "fence_wall",
+        "tiling"
+      ],
+      "years": 13,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          300,
+          800
+        ],
+        "medium": [
+          1300,
+          3600
+        ],
+        "complex": [
+          8000,
+          22000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.94,
+      "completedJobs": 52,
+      "completionRate": 0.96,
+      "responseRate": 0.92,
+      "disputeFreeRate": 0.98,
+      "ratingMean": 4.8,
+      "ratingCount": 45
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": false,
+      "portfolio": {
+        "pipe_repair": 1,
+        "water_heater": 1
+      },
+      "history": {
+        "pipe_repair": 3,
+        "water_heater": 3,
+        "bathroom_fitout": 3
+      },
+      "id": "cc2",
+      "name": "Efua Aidoo",
+      "business": "Aidoo Plumbing Services",
+      "category": "plumbing",
+      "baseArea": "capecoast",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "capecoast"
+      ],
+      "skills": [
+        "pipe_repair",
+        "water_heater",
+        "bathroom_fitout"
+      ],
+      "years": 3,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          100,
+          300
+        ],
+        "medium": [
+          300,
+          900
+        ],
+        "complex": [
+          1500,
+          4000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.68,
+      "completedJobs": 9,
+      "completionRate": 0.85,
+      "responseRate": 0.78,
+      "disputeFreeRate": 0.9,
+      "ratingMean": 4.1,
+      "ratingCount": 6
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "house_wiring": 3,
+        "db_repair": 3
+      },
+      "history": {
+        "house_wiring": 12,
+        "db_repair": 12,
+        "fault_finding": 12
+      },
+      "id": "sun1",
+      "name": "Kwabena Owusu-Ansah",
+      "business": "Owusu-Ansah Electricals",
+      "category": "electrical",
+      "baseArea": "sunyani",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "sunyani"
+      ],
+      "skills": [
+        "house_wiring",
+        "db_repair",
+        "fault_finding",
+        "generator_changeover"
+      ],
+      "years": 8,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          320
+        ],
+        "medium": [
+          400,
+          1400
+        ],
+        "complex": [
+          4000,
+          9500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.89,
+      "completedJobs": 36,
+      "completionRate": 0.93,
+      "responseRate": 0.89,
+      "disputeFreeRate": 0.96,
+      "ratingMean": 4.6,
+      "ratingCount": 30
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "door_fitting": 1,
+        "roofing_carpentry": 1
+      },
+      "history": {
+        "door_fitting": 6,
+        "roofing_carpentry": 6,
+        "ceiling_wood": 6
+      },
+      "id": "sun2",
+      "name": "Akosua Darko",
+      "business": "Darko Carpentry Works",
+      "category": "carpentry",
+      "baseArea": "sunyani",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "sunyani"
+      ],
+      "skills": [
+        "door_fitting",
+        "roofing_carpentry",
+        "ceiling_wood"
+      ],
+      "years": 5,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          150,
+          400
+        ],
+        "medium": [
+          800,
+          2400
+        ],
+        "complex": [
+          2800,
+          8000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.79,
+      "completedJobs": 19,
+      "completionRate": 0.88,
+      "responseRate": 0.83,
+      "disputeFreeRate": 0.92,
+      "ratingMean": 4.3,
+      "ratingCount": 14
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "interior_painting": 2,
+        "wall_texture": 2
+      },
+      "history": {
+        "interior_painting": 10,
+        "wall_texture": 10,
+        "waterproof_coat": 10
+      },
+      "id": "ho1",
+      "name": "Kofi Dogbe",
+      "business": "Dogbe Painting & Finishes",
+      "category": "painting",
+      "baseArea": "ho",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "ho"
+      ],
+      "skills": [
+        "interior_painting",
+        "wall_texture",
+        "waterproof_coat"
+      ],
+      "years": 7,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          200,
+          600
+        ],
+        "medium": [
+          800,
+          2400
+        ],
+        "complex": [
+          2800,
+          7500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.86,
+      "completedJobs": 30,
+      "completionRate": 0.92,
+      "responseRate": 0.87,
+      "disputeFreeRate": 0.95,
+      "ratingMean": 4.5,
+      "ratingCount": 24
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "plastering": 1,
+        "masonry_repairs": 1
+      },
+      "history": {
+        "plastering": 5,
+        "masonry_repairs": 5,
+        "tiling": 5
+      },
+      "id": "ho2",
+      "name": "Mawuli Agbeko",
+      "business": "Agbeko Masonry Services",
+      "category": "masonry",
+      "baseArea": "ho",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "ho"
+      ],
+      "skills": [
+        "plastering",
+        "masonry_repairs",
+        "tiling"
+      ],
+      "years": 4,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          300,
+          800
+        ],
+        "medium": [
+          1300,
+          3600
+        ],
+        "complex": [
+          8000,
+          22000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 0,
+        "skill": 0
+      },
+      "profileCompleteness": 0.75,
+      "completedJobs": 15,
+      "completionRate": 0.87,
+      "responseRate": 0.81,
+      "disputeFreeRate": 0.91,
+      "ratingMean": 4.2,
+      "ratingCount": 11
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "pipe_repair": 3,
+        "leak_detection": 3
+      },
+      "history": {
+        "pipe_repair": 14,
+        "leak_detection": 14,
+        "drainage": 14
+      },
+      "id": "kof1",
+      "name": "Yaw Asamoah",
+      "business": "Asamoah Plumbing Works",
+      "category": "plumbing",
+      "baseArea": "koforidua",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "koforidua"
+      ],
+      "skills": [
+        "pipe_repair",
+        "leak_detection",
+        "drainage",
+        "borehole_pump"
+      ],
+      "years": 10,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "prices": {
+        "simple": [
+          100,
+          300
+        ],
+        "medium": [
+          300,
+          900
+        ],
+        "complex": [
+          1500,
+          4000
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.91,
+      "completedJobs": 44,
+      "completionRate": 0.94,
+      "responseRate": 0.9,
+      "disputeFreeRate": 0.97,
+      "ratingMean": 4.6,
+      "ratingCount": 37
+    },
+    {
+      "status": "approved",
+      "blocked": [],
+      "emergency": true,
+      "portfolio": {
+        "socket_switch": 2,
+        "lighting": 2
+      },
+      "history": {
+        "socket_switch": 8,
+        "lighting": 8,
+        "fault_finding": 8
+      },
+      "id": "kof2",
+      "name": "Adjoa Nartey",
+      "business": "Nartey Electricals",
+      "category": "electrical",
+      "baseArea": "koforidua",
+      "radiusKm": 10,
+      "serviceAreas": [
+        "koforidua"
+      ],
+      "skills": [
+        "socket_switch",
+        "lighting",
+        "fault_finding"
+      ],
+      "years": 6,
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "prices": {
+        "simple": [
+          100,
+          320
+        ],
+        "medium": [
+          400,
+          1400
+        ],
+        "complex": [
+          4000,
+          9500
+        ]
+      },
+      "verified": {
+        "phone": 1,
+        "email": 1,
+        "identity": 1,
+        "skill": 1
+      },
+      "profileCompleteness": 0.82,
+      "completedJobs": 24,
+      "completionRate": 0.9,
+      "responseRate": 0.85,
+      "disputeFreeRate": 0.94,
+      "ratingMean": 4.4,
+      "ratingCount": 18
+    }
+  ]
+}
