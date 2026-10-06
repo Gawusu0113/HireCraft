@@ -125,12 +125,10 @@ $slugEmail = function (string $name, string $id): string {
 $artisanUserId = []; // code => users.id
 $historyJobCounts = []; // code => total completed jobs actually generated (for reporting)
 
-// $D['artisans'] is the original 13-artisan reference set that
-// tests/EngineTest.php's fixtures are pinned to — it reads seed_data.json
-// independently and never sees this merge, so adding more artisans here
-// under a separate 'artisans_extra' key (new cities across Ghana, not just
-// Kumasi) can't change any of the 25 reference test outcomes.
-$allArtisans = array_merge($D['artisans'], $D['artisans_extra'] ?? []);
+// $D['artisans'] is the 13-artisan reference set that tests/EngineTest.php's
+// fixtures are pinned to — it reads seed_data.json independently, so this
+// seeder and the engine test suite always agree on exactly the same roster.
+$allArtisans = $D['artisans'];
 
 foreach ($allArtisans as $a) {
     $email = $slugEmail($a['name'], $a['id']);
@@ -356,5 +354,5 @@ echo 'Artisans: ' . count($artisanUserId) . ', historical completed jobs: ' . ar
 echo "Demo accounts (password for all: $DEMO_PASSWORD):\n";
 echo "  Admin:    admin@hirecraft.test\n";
 echo "  Customer: customer@hirecraft.test  (has one open job: \"{$s1['title']}\")\n";
-echo "  Artisans: e.g. " . $slugEmail('Kwame Boateng', 'p1') . " (Kumasi), " . $slugEmail('Nii Ashong', 'acc1') . " (Accra) — "
-    . count($allArtisans) . " artisans across " . count($D['areas']) . " areas in 9 cities; see database/seed_data.json for the full list.\n";
+echo "  Artisans: e.g. " . $slugEmail('Kwame Boateng', 'p1') . " — "
+    . count($allArtisans) . " artisans across " . count($D['areas']) . " areas in Kumasi; see database/seed_data.json for the full list.\n";

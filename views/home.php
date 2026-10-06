@@ -7,7 +7,7 @@ $emergencyUrl = Auth::check() && Auth::role() === 'customer' ? url('/jobs/new?ur
 ?>
 <section class="hero">
   <div>
-    <span class="eyebrow">Ghana · Explainable artisan matching</span>
+    <span class="eyebrow">Kumasi · Explainable artisan matching</span>
     <h1>Find the right artisan for your job — and see exactly why.</h1>
     <p class="lead">HireCraft ranks verified plumbers, electricians, carpenters, masons and painters against your job, your budget and your schedule, and shows the reasoning behind every match: no black box.</p>
     <div class="row" style="margin-top:22px">
@@ -15,8 +15,8 @@ $emergencyUrl = Auth::check() && Auth::role() === 'customer' ? url('/jobs/new?ur
       <a class="btn ghost lg" href="<?= e(url('/register?role=artisan')) ?>">Join as an artisan</a>
     </div>
     <div class="row" style="margin-top:20px;gap:22px">
-      <div class="kpi"><b>28+</b><span>verified artisans (demo)</span></div>
-      <div class="kpi"><b>9</b><span>cities covered</span></div>
+      <div class="kpi"><b>13+</b><span>verified artisans (demo)</span></div>
+      <div class="kpi"><b>16</b><span>areas in Kumasi</span></div>
       <div class="kpi"><b>8</b><span>weighted match factors</span></div>
     </div>
   </div>

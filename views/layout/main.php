@@ -27,7 +27,7 @@ $myAvatarPath = Auth::check() ? Users::avatarPath((int)Auth::id(), (string)$role
   <div class="wrap">
     <a class="logo" href="<?= e(url('/')) ?>">
       <span class="mk">H</span>
-      <span><span>HireCraft</span><small>Ghana artisan matching</small></span>
+      <span><span>HireCraft</span><small>Kumasi artisan matching</small></span>
     </a>
     <nav class="nav">
       <a class="navlink" href="<?= e(url('/')) ?>">Home</a>
@@ -108,7 +108,7 @@ $myAvatarPath = Auth::check() ? Users::avatarPath((int)Auth::id(), (string)$role
   </div>
 </main>
 <footer class="site-f">
-  <div class="wrap">HireCraft · Explainable artisan matching for Ghana · BSc IT final-year project · Sample/demo data</div>
+  <div class="wrap">HireCraft · Explainable artisan matching for Kumasi · BSc IT final-year project · Sample/demo data</div>
 </footer>
 </body>
 </html>

@@ -3,8 +3,8 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
--- Areas (suburbs/neighbourhoods, tagged with their city/district) across
--- Ghana with approximate coordinates, used for location matching.
+-- Areas (suburbs/localities, tagged with their district) across the Kumasi
+-- Metropolis with approximate coordinates, used for location matching.
 CREATE TABLE IF NOT EXISTS `areas` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(80) NOT NULL,

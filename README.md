@@ -1,7 +1,7 @@
 # HireCraft
 
 Explainable artisan–job matching, budget-compatibility and job-feasibility
-decision-support system for Ghana, built as a BSc IT final-year Design
+decision-support system for Kumasi, built as a BSc IT final-year Design
 Science Research project.
 
 HireCraft lets a customer describe a job — with photos of the work needed —
@@ -88,10 +88,11 @@ findings from the requirements study — see the design document for that.
    php database/seed.php
    ```
 
-   This populates 28 fully-profiled artisans across 5 trades (carpentry,
-   electrical, masonry, painting, plumbing) and 24 areas in 9 cities across
-   Ghana (Kumasi, Accra, Takoradi, Tamale, Cape Coast, Sunyani, Ho,
-   Koforidua and more), 780 historical completed jobs with reviews (so
+   This populates 13 fully-profiled artisans across 5 trades (carpentry,
+   electrical, masonry, painting, plumbing) and 16 areas across the Kumasi
+   Metropolis (Adum, Asafo, Bantama, Suame, Asokwa, Ahodwo, Nhyiaeso,
+   Santasi, Kwadaso, Ayigya, KNUST campus, Oforikrom, Atonsu, Tafo,
+   Kentinkrono and Dichemso), 324 historical completed jobs with reviews (so
    trust scores and ratings are backed by real rows) and one sample photo
    per portfolio item, price benchmarks, the initial matching-weights
    configuration, and one demo customer with a publicly-listed job already
@@ -122,7 +123,7 @@ findings from the requirements study — see the design document for that.
    |----------|--------------------------------------|
    | Admin    | `admin@hirecraft.test`                |
    | Customer | `customer@hirecraft.test`             |
-   | Artisan  | `kwame.boateng@hirecraft.test` (Kumasi) or `nii.ashong@hirecraft.test` (Accra) — 26 others across Ghana, see `database/seed_data.json` |
+   | Artisan  | `kwame.boateng@hirecraft.test` — 12 others across Kumasi, see `database/seed_data.json` |
 
    Or register a new account from the homepage to try the full
    registration → profile setup → job posting → SmartMatch results →
