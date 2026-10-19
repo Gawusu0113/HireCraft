@@ -94,7 +94,7 @@ $breakdown = [
           <tr>
             <td class="muted small"><?= e($b['label']) ?> points</td>
             <?php foreach ($rows as $r): $weights = json_decode($r['weights_snapshot'], true) ?: []; $wkey = str_replace(['_match_score', '_score', '_relevance'], '', $b['key']); $max = (float)($weights[$wkey] ?? 0); ?>
-              <td><?= number_format((float)$r[$b['key']], 1) ?><?= $max > 0 ? '/' . number_format($max, 0) : '' ?></td>
+              <td><?= number_format((float)$r[$b['key']], 1) ?><?= $max > 0 ? '/' . number_format($max, 1) : '' ?></td>
             <?php endforeach; ?>
           </tr>
         <?php endforeach; ?>

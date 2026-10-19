@@ -40,6 +40,11 @@ final class Users
         Db::run('UPDATE users SET last_login_at = NOW() WHERE id = ?', [$id]);
     }
 
+    public static function updatePassword(int $id, string $passwordHash): void
+    {
+        Db::run('UPDATE users SET password_hash = ? WHERE id = ?', [$passwordHash, $id]);
+    }
+
     public static function hasCustomerProfile(int $userId): bool
     {
         return Db::scalar('SELECT COUNT(*) FROM customer_profiles WHERE user_id = ?', [$userId]) > 0;

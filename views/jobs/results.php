@@ -158,7 +158,7 @@ $groupNames = array_keys($groups);
                   <div class="brk">
                     <span class="lbl"><?= e($label) ?></span>
                     <span class="meter"><i style="width:<?= round($pct, 1) ?>%"></i></span>
-                    <span class="pts"><?= number_format($pts, 1) ?>/<?= number_format($max, 0) ?></span>
+                    <span class="pts"><?= number_format($pts, 1) ?>/<?= number_format($max, 1) ?></span>
                   </div>
                 <?php endforeach; ?>
               </div>

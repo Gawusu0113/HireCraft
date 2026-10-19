@@ -20,6 +20,43 @@ final class ProfileController
 {
     private const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
+    public function showPasswordForm(): void
+    {
+        Auth::requireLogin();
+        View::render('profile/password');
+    }
+
+    public function changePassword(): void
+    {
+        Auth::requireLogin();
+        $userId = (int)Auth::id();
+        $user = Users::findById($userId);
+        $currentPassword = (string)($_POST['current_password'] ?? '');
+        $newPassword = (string)($_POST['new_password'] ?? '');
+        $confirmPassword = (string)($_POST['new_password_confirm'] ?? '');
+
+        if (!$user || !password_verify($currentPassword, $user['password_hash'])) {
+            Auth::flash('error', 'Your current password is incorrect.');
+            Response::redirect('/profile/password');
+        }
+        if (mb_strlen($newPassword) < 8) {
+            Auth::flash('error', 'Your new password must be at least 8 characters.');
+            Response::redirect('/profile/password');
+        }
+        if ($newPassword !== $confirmPassword) {
+            Auth::flash('error', 'Your new passwords do not match.');
+            Response::redirect('/profile/password');
+        }
+        if (password_verify($newPassword, $user['password_hash'])) {
+            Auth::flash('error', 'Choose a new password that is different from your current one.');
+            Response::redirect('/profile/password');
+        }
+
+        Users::updatePassword($userId, password_hash($newPassword, PASSWORD_DEFAULT));
+        Auth::flash('success', 'Your password has been changed.');
+        Response::redirect('/dashboard');
+    }
+
     public function showSetup(): void
     {
         Auth::requireRole('customer', 'artisan');

@@ -49,6 +49,12 @@ $router->get('/profile/setup', function () {
 $router->post('/profile/setup', function () {
     (new ProfileController())->saveSetup();
 });
+$router->get('/profile/password', function () {
+    (new ProfileController())->showPasswordForm();
+});
+$router->post('/profile/password', function () {
+    (new ProfileController())->changePassword();
+});
 $router->get('/profile/portfolio', function () {
     (new ProfileController())->showPortfolio();
 });

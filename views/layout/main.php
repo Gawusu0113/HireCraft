@@ -73,7 +73,7 @@ $myAvatarPath = Auth::check() ? Users::avatarPath((int)Auth::id(), (string)$role
           <?php endif; ?>
         </div>
         <div class="userchip">
-          <a href="<?= e(url('/profile/picture')) ?>" class="av sm user" title="Profile picture" style="text-decoration:none">
+          <a href="<?= e(url('/profile/picture')) ?>" class="av sm user" title="Profile settings" aria-label="Profile settings" style="text-decoration:none">
             <?php if ($myAvatarPath): ?>
               <img src="<?= e(uploadUrl($myAvatarPath)) ?>" alt="">
             <?php else: ?>

@@ -1,17 +1,22 @@
 <?php
 /** @var string|null $avatarPath */
 use HireCraft\Support\Auth;
-$title = 'Profile picture';
+$title = 'Profile settings';
 $initial = mb_strtoupper(mb_substr((string)Auth::name(), 0, 1));
 ?>
 <div class="stack" style="max-width:480px;margin:0 auto">
-  <div>
-    <span class="eyebrow">Account</span>
-    <h2 style="margin-top:4px">Profile picture</h2>
-    <p class="muted small" style="margin-top:6px">Shown next to your name across HireCraft &mdash; in the top bar, and on your public profile if you're an artisan.</p>
+  <div class="row between">
+    <div>
+      <span class="eyebrow">Account</span>
+      <h2 style="margin-top:4px">Profile settings</h2>
+    </div>
+    <a class="btn ghost sm" href="<?= e(url('/profile/password')) ?>">Change password</a>
   </div>
+  <p class="muted small">Manage your profile picture and account password.</p>
 
   <div class="card" style="text-align:center">
+    <h3>Profile picture</h3>
+    <p class="muted small" style="margin-top:6px">Shown next to your name across HireCraft and on your public profile if you're an artisan.</p>
     <div class="av xl user" style="margin:0 auto">
       <?php if ($avatarPath): ?>
         <img src="<?= e(uploadUrl($avatarPath)) ?>" alt="Your profile picture">
