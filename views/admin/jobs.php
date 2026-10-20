@@ -45,7 +45,7 @@ $tabs = [
       <a class="card" style="display:block;text-decoration:none;color:inherit" href="<?= e(url('/jobs/' . (int)$j['id'])) ?>">
         <div class="row between">
           <div>
-            <h3 style="font-size:16px"><?= e($j['title']) ?></h3>
+            <h3 style="font-size:20px"><?= e($j['title']) ?></h3>
             <p class="muted small" style="margin-top:4px"><?= e($j['category_name']) ?> &middot; <?= e($j['area_name']) ?> &middot; Posted by <?= e($j['customer_name']) ?> &middot; <?= e(fmtDate($j['created_at'])) ?></p>
           </div>
           <div style="text-align:right">

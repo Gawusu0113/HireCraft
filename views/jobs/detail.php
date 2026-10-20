@@ -89,7 +89,7 @@ $currentIdx = $work ? array_search($work['status'], $stepOrder, true) : -1;
             <?php foreach ($milestones as $m): ?>
               <div class="row between" style="align-items:flex-start;gap:10px">
                 <div>
-                  <b style="font-size:14px"><?= e($m['title']) ?></b>
+                  <b style="font-size:16px"><?= e($m['title']) ?></b>
                   <?php if ($m['description']): ?><p class="small muted" style="margin-top:2px"><?= nl2br(e($m['description'])) ?></p><?php endif; ?>
                   <p class="muted small" style="margin-top:4px">
                     <?php if ($m['estimated_cost'] !== null): ?><?= e(gh((float)$m['estimated_cost'])) ?> · <?php endif; ?>

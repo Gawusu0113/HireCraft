@@ -46,7 +46,7 @@ $statusLabel = [
       <div class="stack s10" style="margin-top:10px">
         <?php foreach ($evidence as $ev): ?>
           <div>
-            <b style="font-size:13.5px"><?= e($ev['full_name']) ?></b>
+            <b style="font-size:16px"><?= e($ev['full_name']) ?></b>
             <span class="muted small"> &middot; <?= e(fmtDateTime($ev['created_at'])) ?></span>
             <p class="small" style="margin-top:2px"><?= nl2br(e($ev['note'])) ?></p>
           </div>

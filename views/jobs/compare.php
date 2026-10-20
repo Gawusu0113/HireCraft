@@ -83,7 +83,7 @@ $breakdown = [
           <?php foreach ($rows as $r): ?>
             <td>
               <?php if ($r['availability']): ?>
-                <?php foreach ($r['availability'] as $slot): ?><span class="chip static" style="margin:2px 4px 2px 0;padding:4px 10px;font-size:12px"><?= e($slot) ?></span><?php endforeach; ?>
+                <?php foreach ($r['availability'] as $slot): ?><span class="chip static" style="margin:2px 4px 2px 0;padding:4px 10px;font-size:15px"><?= e($slot) ?></span><?php endforeach; ?>
               <?php else: ?>
                 <span class="muted">Not listed</span>
               <?php endif; ?>

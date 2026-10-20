@@ -36,7 +36,7 @@ $tabs = ['pending' => 'Pending', 'approved' => 'Approved', 'rejected' => 'Reject
       <div class="card">
         <div class="row between">
           <div>
-            <h3 style="font-size:16px"><?= e($typeLabels[$v['type']] ?? ucfirst($v['type'])) ?> &mdash; <a href="<?= e(url('/artisans/' . (int)$v['artisan_id'])) ?>" style="color:inherit"><?= e($v['business_name'] ?: $v['artisan_name']) ?></a></h3>
+            <h3 style="font-size:20px"><?= e($typeLabels[$v['type']] ?? ucfirst($v['type'])) ?> &mdash; <a href="<?= e(url('/artisans/' . (int)$v['artisan_id'])) ?>" style="color:inherit"><?= e($v['business_name'] ?: $v['artisan_name']) ?></a></h3>
             <p class="muted small" style="margin-top:4px"><?= e($v['document_type'] ?? '') ?> &middot; Submitted <?= e(fmtDateTime($v['submitted_at'])) ?></p>
           </div>
           <span class="pill <?= e($statusPill[$v['status']] ?? 'mute') ?>"><?= e(ucfirst($v['status'])) ?></span>

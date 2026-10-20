@@ -84,19 +84,19 @@ $trustCounts = array_map(fn($b) => $bucketByLabel[$b] ?? 0, $bucketOrder);
 
 <div class="grid g2" style="margin-top:22px">
   <div class="card">
-    <h3 style="font-size:15px">Jobs by status</h3>
+    <h3 style="font-size:20px">Jobs by status</h3>
     <div style="position:relative;height:260px;margin-top:12px"><canvas id="chartJobStatus"></canvas></div>
   </div>
   <div class="card">
-    <h3 style="font-size:15px">Jobs by trade</h3>
+    <h3 style="font-size:20px">Jobs by trade</h3>
     <div style="position:relative;height:260px;margin-top:12px"><canvas id="chartCategory"></canvas></div>
   </div>
   <div class="card">
-    <h3 style="font-size:15px">Sign-ups, last 8 weeks</h3>
+    <h3 style="font-size:20px">Sign-ups, last 8 weeks</h3>
     <div style="position:relative;height:260px;margin-top:12px"><canvas id="chartSignups"></canvas></div>
   </div>
   <div class="card">
-    <h3 style="font-size:15px">Approved-artisan trust score spread</h3>
+    <h3 style="font-size:20px">Approved-artisan trust score spread</h3>
     <div style="position:relative;height:260px;margin-top:12px"><canvas id="chartTrust"></canvas></div>
   </div>
 </div>

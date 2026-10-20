@@ -18,7 +18,7 @@ $statusPill = ['pending' => 'gold', 'approved' => 'ok', 'rejected' => 'bad'];
     <?php foreach ($types as $t): ?>
       <?php $latest = $latestByType[$t] ?? null; ?>
       <div class="card">
-        <h3 style="font-size:15px"><?= e(ucfirst($t)) ?></h3>
+        <h3 style="font-size:20px"><?= e(ucfirst($t)) ?></h3>
         <p class="muted small" style="margin-top:6px"><?= e($typeLabels[$t]) ?></p>
         <?php if ($latest): ?>
           <span class="pill <?= e($statusPill[$latest['status']] ?? 'mute') ?>" style="margin-top:10px;display:inline-block"><?= e(ucfirst($latest['status'])) ?></span>
@@ -65,7 +65,7 @@ $statusPill = ['pending' => 'gold', 'approved' => 'ok', 'rejected' => 'bad'];
         <?php foreach ($submissions as $s): ?>
           <div class="row between">
             <div>
-              <b style="font-size:14px"><?= e(ucfirst($s['type'])) ?></b>
+              <b style="font-size:16px"><?= e(ucfirst($s['type'])) ?></b>
               <p class="muted small" style="margin-top:2px"><?= e($s['document_type'] ?? '') ?> &middot; <?= e(fmtDateTime($s['submitted_at'])) ?></p>
             </div>
             <span class="pill <?= e($statusPill[$s['status']] ?? 'mute') ?>"><?= e(ucfirst($s['status'])) ?></span>

@@ -33,7 +33,7 @@ $tabs = ['open' => 'Open', 'under_review' => 'Under review', 'waiting_for_respon
       <div class="card">
         <div class="row between">
           <div>
-            <h3 style="font-size:16px"><?= e($issueLabels[$d['issue_type']] ?? ucfirst($d['issue_type'])) ?> &mdash; <?= e($d['job_title']) ?></h3>
+            <h3 style="font-size:20px"><?= e($issueLabels[$d['issue_type']] ?? ucfirst($d['issue_type'])) ?> &mdash; <?= e($d['job_title']) ?></h3>
             <p class="muted small" style="margin-top:4px">Opened by <?= e($d['opened_by_name']) ?><?= $d['against_name'] ? ' against ' . e($d['against_name']) : '' ?> &middot; <?= e(fmtDateTime($d['created_at'])) ?></p>
           </div>
           <span class="pill <?= e($statusPill[$d['status']] ?? 'mute') ?>"><?= e(ucwords(str_replace('_', ' ', $d['status']))) ?></span>

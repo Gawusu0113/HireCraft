@@ -87,7 +87,7 @@ $verificationLabels = [
       <div class="stack" style="margin-top:12px">
         <?php foreach ($items as $item): ?>
           <div class="card">
-            <h3 style="font-size:16px"><?= e($item['title']) ?></h3>
+            <h3 style="font-size:20px"><?= e($item['title']) ?></h3>
             <?php if ($item['completed_on']): ?>
               <p class="muted small" style="margin-top:4px"><?= e(fmtDate($item['completed_on'])) ?></p>
             <?php endif; ?>

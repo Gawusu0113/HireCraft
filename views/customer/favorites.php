@@ -22,7 +22,7 @@ $tradeIcon = ['plumbing' => 'P', 'electrical' => 'E', 'carpentry' => 'C', 'mason
           <div class="row" style="gap:12px;align-items:flex-start">
             <span class="av <?= e($f['category_slug']) ?>"><?= e($tradeIcon[$f['category_slug']] ?? mb_substr($f['category_name'], 0, 1)) ?></span>
             <div style="flex:1">
-              <h3 style="font-size:16px"><a href="<?= e(url('/artisans/' . (int)$f['user_id'])) ?>" style="color:inherit;text-decoration:none"><?= e($f['business_name'] ?: $f['full_name']) ?></a></h3>
+              <h3 style="font-size:20px"><a href="<?= e(url('/artisans/' . (int)$f['user_id'])) ?>" style="color:inherit;text-decoration:none"><?= e($f['business_name'] ?: $f['full_name']) ?></a></h3>
               <p class="muted small" style="margin-top:2px"><?= e($f['category_name']) ?> · <?= e($f['area_name']) ?></p>
               <p class="muted small" style="margin-top:4px">Trust <?= (int)$f['trust_score'] ?>/100 · <?= $f['rating_count'] > 0 ? number_format((float)$f['rating_mean'], 1) . ' ★' : 'No reviews yet' ?></p>
             </div>

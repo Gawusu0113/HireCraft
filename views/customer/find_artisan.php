@@ -143,7 +143,7 @@ $skillIds = $skillIds ?? [];
               <?php endif; ?>
             </span>
             <div style="flex:1">
-              <h3 style="font-size:16px"><a href="<?= e(url('/artisans/' . (int)$a['user_id'])) ?>" style="color:inherit;text-decoration:none"><?= e($a['business_name'] ?: $a['full_name']) ?></a></h3>
+              <h3 style="font-size:20px"><a href="<?= e(url('/artisans/' . (int)$a['user_id'])) ?>" style="color:inherit;text-decoration:none"><?= e($a['business_name'] ?: $a['full_name']) ?></a></h3>
               <p class="muted small" style="margin-top:2px"><?= e($a['category_name']) ?> · <?= e($a['area_name']) ?> · <?= (int)$a['years_experience'] ?> yrs</p>
               <p class="muted small" style="margin-top:4px">Trust <?= (int)$a['trust_score'] ?>/100 · <?= $a['rating_count'] > 0 ? number_format((float)$a['rating_mean'], 1) . ' ★ (' . (int)$a['rating_count'] . ')' : 'No reviews yet' ?> · <?= e($verificationLabels[$a['verification_level']] ?? ucfirst($a['verification_level'])) ?></p>
               <?php if ($a['accepts_emergency']): ?><span class="pill gold" style="margin-top:6px;display:inline-block">🚨 Takes emergencies</span><?php endif; ?>

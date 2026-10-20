@@ -33,7 +33,7 @@ $tabs = ['open' => 'Open', 'reviewed' => 'Reviewed', 'dismissed' => 'Dismissed',
       <div class="card">
         <div class="row between">
           <div>
-            <h3 style="font-size:16px"><?= e($reasonLabels[$r['reason']] ?? ucfirst($r['reason'])) ?></h3>
+            <h3 style="font-size:20px"><?= e($reasonLabels[$r['reason']] ?? ucfirst($r['reason'])) ?></h3>
             <p class="muted small" style="margin-top:4px">
               Reported by <?= e($r['reporter_name']) ?>
               <?php if ($r['reported_name']): ?> about <b style="color:var(--ink)"><?= e($r['reported_name']) ?></b> (<?= e($r['reported_role']) ?>)<?php endif; ?>

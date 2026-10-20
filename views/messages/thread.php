@@ -42,7 +42,7 @@ $title = 'Messages';
 
 <style>
 .msg{display:flex;flex-direction:column;max-width:75%}
-.msg .bubble{background:var(--surface2);border-radius:12px;padding:10px 13px;font-size:14.5px;line-height:1.4}
+.msg .bubble{background:var(--surface2);border-radius:12px;padding:10px 13px;font-size:17px;line-height:1.4}
 .msg .muted{margin-top:3px}
 .msg.mine{align-self:flex-end;align-items:flex-end}
 .msg.mine .bubble{background:var(--green-l);color:var(--ink)}
